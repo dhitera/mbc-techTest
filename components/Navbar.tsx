@@ -92,11 +92,11 @@ export default function Navbar() {
             </li>
             <li>
               <Link
-                href="/dev"
-                className={getLinkClasses("/dev")}
-                aria-current={isActive("/dev") ? "page" : undefined}
+                href="/profile"
+                className={getLinkClasses("/profile")}
+                aria-current={isActive("/profile") ? "page" : undefined}
                 onClick={
-                  isActive("/dev") ? (e) => e.preventDefault() : undefined
+                  isActive("/profile") ? (e) => e.preventDefault() : undefined
                 }
               >
                 Dev Profile

@@ -28,7 +28,7 @@ export default function Footer() {
             </Link>
           </li>
           <li>
-            <Link href="/dev" className="hover:underline">
+            <Link href="/profile" className="hover:underline">
               Dev Profile
             </Link>
           </li>
