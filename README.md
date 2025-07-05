@@ -1,6 +1,6 @@
 # Website MBC Laboratory
 
-Website resmi **MBC Laboratory** yang dibangun menggunakan [Next.js](https://nextjs.org) dengan teknologi modern untuk menampilkan informasi laboratorium, bidang keahlian, dan kontak.
+Website Profile **MBC Laboratory** yang dibangun menggunakan [Next.js] dengan teknologi modern untuk menampilkan informasi laboratorium, bidang keahlian, dan kontak.
 
 ## 🚀 Teknologi yang Digunakan
 
@@ -190,11 +190,9 @@ Vercel menyediakan SSL certificate secara otomatis:
 
 - **Form kontak** terintegrasi EmailJS
 - **Google Maps** menampilkan lokasi laboratorium
-- **Layout split** 50/50 (maps kiri, form kanan)
 
-### 👤 Halaman Profil
+### 👤 Halaman Profil Developer
 
-- **Layout split** (foto profil kiri, info kanan)
 - **Informasi lengkap:** Nama, Jurusan, NIM, Email, Bidang Keahlian
 
 ### 🎯 Halaman Division
@@ -228,11 +226,6 @@ rm -rf .next
 npm run build
 ```
 
-### Image Loading Issues
-
-- Pastikan gambar ada di folder `public/images/`
-- Check format file (JPG, PNG, WebP)
-
 ### EmailJS Issues
 
 - Verifikasi Service ID, Template ID, dan Public Key
@@ -240,20 +233,9 @@ npm run build
 
 ## 📝 Lisensi
 
-Project ini dibuat untuk **MBC Laboratory** - Telkom University.
-
-## 🤝 Kontribusi
-
-Untuk berkontribusi pada proyek ini:
-
-1. Fork repository
-2. Buat feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit perubahan (`git commit -m 'Add some AmazingFeature'`)
-4. Push ke branch (`git push origin feature/AmazingFeature`)
-5. Buat Pull Request
+Project ini dibuat untuk Technical Test MBC Laboratory - Telkom University.
 
 ---
 
-**Website URL:** [mbc-website.vercel.app](https://mbc-website.vercel.app)  
-**Repository:** [github.com/dhitera/mbc-techTest](https://github.com/dhitera/mbc-techTest)  
-**Dibuat dengan ❤️ oleh Tim MBC Laboratory**
+**Website URL:** [mbc-website.vercel.app](https://mbc-tech-test-2ndqwy9ln-dhiteras-projects.vercel.app/)  
+**Repository:** [github.com/dhitera/mbc-techTest](https://github.com/dhitera/mbc-techTest)
