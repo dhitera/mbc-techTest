@@ -2,7 +2,7 @@ import Card from "../../components/ui/Card";
 
 export default function Division() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen p-8">
+    <div className="bg-gradient-to-b from-red-800 to-transparent dark:from-red-800 flex flex-col items-center justify-center min-h-screen p-8">
       <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-8">
         Bidang Keahlian MBC Laboratory
       </h1>
